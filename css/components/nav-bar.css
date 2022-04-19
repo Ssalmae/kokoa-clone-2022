@@ -3,7 +3,7 @@
     bottom: 0;
     width: 100%;
     background-color: #F9F9FA;
-    padding: 20px 50px;
+    padding: 15px 50px;
     box-sizing: border-box;
     border-top: 1px solid #DFDFDF;
 }
@@ -14,22 +14,13 @@
     color: #2F363E;
 }
 
-.nav__link {
-    position: relative;
-}
-
 .nav__notification {
     position: absolute;
     left: 22px;
     bottom: 15px;
 }
 
-.nav__check {
-    background-color: #FF6229;
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    position: absolute;
+.nav__more {
     left: 30px;
     bottom: 28px;
 }

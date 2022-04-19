@@ -9,3 +9,15 @@
     color: white;
     font-weight: 600;
 }
+
+.check-p {
+    position: relative;
+}
+
+.check {
+    background-color: #FF6229;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+}

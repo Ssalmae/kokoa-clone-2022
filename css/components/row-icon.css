@@ -1,0 +1,48 @@
+.more-icons {
+    border-bottom: var(--line);
+}
+
+.more-icons__column {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 20px;
+}
+
+.more-icons__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more-icons__icon i {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.more-icons__icon img {
+    height: 50px;
+    width: 50px;
+    border-radius: 15%;
+    margin-bottom: 15px;
+}
+
+.more-icons__icon-badge {
+    left: 60px;
+    top: -10px;
+    width: 8px;
+    height: 8px;
+}
+
+.none-visual {
+    visibility: hidden;
+}
+
+.suggestions__header {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.grey-font {
+    color: var(--grey2)
+}

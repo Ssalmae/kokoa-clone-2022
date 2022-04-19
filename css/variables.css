@@ -3,4 +3,6 @@
     --grey: #2F363E;
     --grey2: #8C8C8C;
     --horizontal-space: 25px;
+    --위아래간격: 25px;
+    --line: 1px solid var(--grey2);
 }

@@ -1,5 +1,6 @@
 .user-component {
     justify-content: space-between;
+    margin-bottom: var(--위아래간격);
 }
 
 .user-component,
@@ -26,6 +27,10 @@
     font-size: 17px;
 }
 
+.user-component__subtitle i {
+    color: #FF5B49;
+}
+
 .user-component__avatar--xl {
     width: 80px;
     height: 80px;
@@ -42,7 +47,7 @@
 
 .friends-screen__channel {
     margin-top: 25px;
-    border-top: 1px solid var(--grey2);
+    border-top: var(--line);
     padding-top: 15px;
 }
 
@@ -63,4 +68,8 @@
 .user-component__time {
     display: block;
     margin-bottom: 10px;
+}
+
+.user-component__column:last-child i {
+    color: black;
 }
