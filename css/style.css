@@ -9,11 +9,14 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/row-icon.css";
+@import "components/chat-settings-header.css";
+
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
+@import "screens/settings.css";
 
 body {
     font-family: 'Open Sans', sans-serif;

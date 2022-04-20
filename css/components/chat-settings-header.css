@@ -1,0 +1,27 @@
+.chat-settings-header {
+    font-size: 24px;
+    display: flex;
+    font-weight: 600;
+    position: fixed;
+    width: 100%;
+    top: 45px;
+}
+
+.chat-settings-header__column {
+    width: 33%;
+}
+
+.chat-settings-header__column:first-child {
+    margin-left: 20px;
+}
+
+.chat-settings-header__column:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+.chat-settings-header__column:last-child {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
