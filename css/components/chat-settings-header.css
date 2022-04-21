@@ -5,6 +5,9 @@
     position: fixed;
     width: 100%;
     top: 45px;
+    z-index: 1;
+    background-color: inherit;
+    padding-bottom: 20px;
 }
 
 .chat-settings-header__column {
@@ -21,7 +24,11 @@
 }
 
 .chat-settings-header__column:last-child {
+    margin-right: 20px;
     display: flex;
     justify-content: flex-end;
-    margin-right: 20px;
+}
+
+.chat-settings-header__column:last-child i {
+    margin-left: 30px;
 }

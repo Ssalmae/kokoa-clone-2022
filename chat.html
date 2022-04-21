@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat w/ KokoaTalk - Kokoa Clone</title>
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="chat-settings-header">
+        <div class="chat-settings-header__column">
+            <a href="#" onclick="history.back()"><i class="fa-solid fa-chevron-left fa-lg"></i></a>
+        </div>
+        <div class="chat-settings-header__column">
+            KokoaTalk
+        </div>
+        <div class="chat-settings-header__column">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <main class="main-chat">
+        <div class="chat-date">
+            <div class="chat-date__column">
+                <span>
+                    Tuesday, June 30, 2020
+                </span>
+            </div>
+        </div>
+
+        <div class="chat-dialog">
+            <img src="screenshot/IMG_2667.jpg" />
+            <div class="chat-dialog__content">
+                <span class="chat-dialog__author">
+                    KokoaTalk
+                </span>
+                <div class="chat-dialog__info">
+                    <div class="chat-dialog__dialog">Hi!</div>
+                    <div class="chat-dialog__time">21:27</div>        
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-dialog chat-dialog-own">
+            <div class="chat-dialog__content">
+                <div class="chat-dialog__info chat-dialog__info-own">
+                    <div class="chat-dialog__dialog chat-dialog__dialog-own">What's up?</div>
+                    <div class="chat-dialog__time">21:27</div>        
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fa-regular fa-square-plus"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..." />
+            <i class="fa-regular fa-face-smile"></i>
+            <button>
+                <i class="fa-solid fa-arrow-up fa-2x"></i>
+            </button>
+        </div>
+    </form>
+
+    <form class="keypad">
+        <div class="keypad__column">
+            <div class="keypad__key">
+                q
+            </div>
+            <div class="keypad__key">
+                w
+            </div>
+            <div class="keypad__key">
+                e
+            </div>
+            <div class="keypad__key">
+                r
+            </div>
+            <div class="keypad__key">
+                t
+            </div>
+            <div class="keypad__key">
+                y
+            </div>
+            <div class="keypad__key">
+                i
+            </div>
+            <div class="keypad__key">
+                o
+            </div>
+            <div class="keypad__key">
+                p
+            </div>
+            <div class="keypad__key">
+                q
+            </div>
+        </div>
+        <div class="keypad__column">
+            <div class="keypad__key">
+                a
+            </div>
+            <div class="keypad__key">
+                s
+            </div>
+            <div class="keypad__key">
+                d
+            </div>
+            <div class="keypad__key">
+                f
+            </div>
+            <div class="keypad__key">
+                g
+            </div>
+            <div class="keypad__key">
+                h
+            </div>
+            <div class="keypad__key">
+                j
+            </div>
+            <div class="keypad__key">
+                k
+            </div>
+            <div class="keypad__key">
+                l
+            </div>
+        </div>
+        <div class="keypad__column">
+            <div class="keypad__key keypad__key-L">
+                <i class="fa-solid fa-arrow-up"></i>
+            </div>
+            <div class="keypad__key keypad__key-Z">
+                z
+            </div>
+            <div class="keypad__key">
+                x
+            </div>
+            <div class="keypad__key">
+                c
+            </div>
+            <div class="keypad__key">
+                v
+            </div>
+            <div class="keypad__key">
+                b
+            </div>
+            <div class="keypad__key">
+                n
+            </div>
+            <div class="keypad__key keypad__key-M">
+                m
+            </div>
+            <div class="keypad__key keypad__key-L">
+                <i class="fa-solid fa-delete-left"></i>
+            </div>
+        </div>
+        <div class="keypad__column">
+            <div class="keypad__key keypad__key-L">
+                123
+            </div>
+            <div class="keypad__key keypad__key-L">
+                <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="keypad__key">
+                <i class="fa-solid fa-microphone"></i>
+            </div>
+            <div class="keypad__key keypad__key-space">
+                space
+            </div>
+            <div class="keypad__key keypad__key-return">
+                return
+            </div>
+        </div>
+    </form>
+
+    <script src="https://kit.fontawesome.com/6b9e34afca.js" crossorigin="anonymous"></script>
+</body>
+</html>
