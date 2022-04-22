@@ -1,6 +1,44 @@
 #chat-screen {
     background-color: #ABC1D1;
-    height: 1000vh;
+    height: 500vh;
+}
+
+@keyframes faidinD {
+    from{
+        transform: translateY(-30px);
+        opacity: 0.6;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes faidinL {
+    from {
+        transform: translateX(-150px);
+        opacity: 0.2;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.chat-dialog:not(.chat-dialog-own) {
+    animation: faidinL 0.5s ease-in-out;
+}
+
+@keyframes faidinR {
+    from {
+        transform: translateX(150px);
+        opacity: 0.2;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.chat-dialog-own {
+    animation: faidinR 0.5s ease-in-out;
 }
 
 .main-chat {
@@ -11,6 +49,7 @@
     display: flex;
     justify-content: center;
     margin-top: 100px;
+    animation: faidinD 0.5s ease-in-out;
 }
 
 .chat-date__column {
@@ -85,10 +124,16 @@
     position: fixed;
     width: 100%;
     box-sizing: border-box;
-    bottom: 300px;
+    bottom: 0px;
     background-color: white;
     display: flex;
     padding: 3px 20px;
+    margin-bottom: 5px;
+    transition: bottom 0.5s ease-in-out;
+}
+
+.reply:focus-within {
+    bottom: 300px;
 }
 
 .reply__column:first-child {
@@ -135,10 +180,14 @@
 
 .keypad {
     position: fixed;
-    bottom: 0;
+    bottom: -300px;
     width: 100%;
     background-color: #D1D4D9;
-    height: 300px;
+    transition: bottom 0.5s ease-in-out;
+}
+
+.reply_and_keypad:focus-within .keypad {
+    bottom: 0;
 }
 
 .keypad__column {
@@ -187,3 +236,4 @@
     width: 120px;
     font-size: 22px;
 }
+

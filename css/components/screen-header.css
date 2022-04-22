@@ -20,3 +20,16 @@
     left: 24px;
     bottom: 24px;
 }
+
+@keyframes spingear {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(365deg);
+    }
+}
+
+.screen-header__icons .fa-gear:hover {
+    animation: spingear 1s linear infinite;
+}
