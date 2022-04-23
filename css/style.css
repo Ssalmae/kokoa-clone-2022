@@ -10,7 +10,7 @@
 @import "components/badge.css";
 @import "components/row-icon.css";
 @import "components/chat-settings-header.css";
-
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
